@@ -1,0 +1,55 @@
+.my-form {
+    background-color: #15151b;
+    padding: 25px;
+    width: 18rem;
+    border-radius: 15px;
+    box-shadow: 1px 4px 28px 13px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 4px 28px 13px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 4px 28px 13px rgba(0,0,0,0.5);
+}
+
+.my-form .form-group {
+    margin-bottom: 16px;
+}
+
+.my-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #bababa;
+}
+
+.my-form input {
+    padding: 7px;
+    border: 1px solid #fa73d9;
+    background-color: #222222;
+    width: 17rem;
+    border-radius: 6px;
+}
+
+.my-form textarea {
+    border: 1px solid #fa73d9;
+    height: 10rem;
+    width: 17.5rem;
+    background-color: #222222;
+    border-radius: 6px;
+}
+
+.form-group-btn {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.form-group-btn button {
+    background-color: #222222;
+    border: 1px solid #fa73d9;
+    padding: 12px;
+    border-radius: 22px;
+    width: 18rem;
+    color: #fa73d9;
+}
+
+.form-group-btn button:hover {
+    background-color: #fa73d9;
+    color: white;
+    cursor: pointer;
+}
