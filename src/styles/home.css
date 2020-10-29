@@ -3,10 +3,95 @@ body {
     font-family: sans-serif;
 }
 
-.container {
+.head-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 300;
+    color: #fff;
+    font-family: "Brush Script MT";
+    border-bottom-style: none;
+    text-shadow: #fa73d9 0 0 8px;
+    font-size: 4.5em;
+}
+
+.subtitle {
+    font-size: 1em;
+    font-style: italic;
+    color: #ddd;
+    text-shadow: #fa73d9 1px 1px 4px;
+    margin-top: -1em;
+    margin-bottom: 3em;
+    line-height: 1.2;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 3.5em;
+    }
+}
+
+.lolly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-lolly {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.container {
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.flavours {
+    margin-bottom: 1em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.picker-label {
+    height: 40px;
+    width: 40px;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    display: block;
+    overflow: hidden;
+    margin: 30px;
+    box-shadow: 0 0 14px #000;
+}
+
+.color-picker {
+    height: 60px;
+    width: 60px;
+    margin-top: -10px;
+    margin-left: -10px;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

@@ -20,7 +20,8 @@
 
 .my-form input {
     padding: 7px;
-    border: 1px solid #fa73d9;
+    box-shadow: 0 0 6px #fa73d9;
+    border: 2px solid #fa73d9;
     background-color: #222222;
     width: 17rem;
     border-radius: 6px;
@@ -28,6 +29,7 @@
 
 .my-form textarea {
     border: 1px solid #fa73d9;
+    box-shadow: 0 0 6px #fa73d9;
     height: 10rem;
     width: 17.5rem;
     background-color: #222222;
@@ -42,14 +44,17 @@
 .form-group-btn button {
     background-color: #222222;
     border: 1px solid #fa73d9;
+    box-shadow: 0 0 6px #fa73d9;
     padding: 12px;
     border-radius: 22px;
+    transition: all .3s;
     width: 18rem;
     color: #fa73d9;
 }
 
 .form-group-btn button:hover {
     background-color: #fa73d9;
+    box-shadow: 0 0 6px #fa73d9;    
     color: white;
     cursor: pointer;
 }
