@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import FormControl from './FormControl';
 import Lolly from './Lolly';
 import '../styles/home.css';
 
@@ -23,9 +22,6 @@ function Form() {
                         <input className='color-picker' type='color' value={ bottom } onChange={(e) => { setBottom(e.target.value) }} />
                     </div>
                 </div>
-            </div>
-            <div className='info'>
-                <FormControl />
             </div>
         </div>
     )
